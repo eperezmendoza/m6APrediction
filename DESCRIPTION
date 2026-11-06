@@ -1,0 +1,17 @@
+Package: m6APrediction
+Title: Prediction of m6A Sites using sequence features
+Version: 1.0.0
+Authors@R: person("Edain", "Perez", email = "e.perezmendoza26@student.xjtlu.edu.cn", 
+    role = c("aut", "cre"))
+Description: The functions in this package allow to predict m6A RNA modification 
+    sites by using a trained random forest model and provided sequence features.
+    Included tools are able to perform sequence data preparation and make predictions 
+    for single samples or entire tables.
+License: MIT + file LICENSE
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.3.3
+Depends: R (>= 3.5.0)
+Imports: 
+    randomForest,
+    stats
